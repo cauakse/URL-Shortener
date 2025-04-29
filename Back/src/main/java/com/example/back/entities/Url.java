@@ -10,7 +10,7 @@ public class Url {
     @Column(name="url_id")
     private Long id;
 
-    @Column(name = "url_unshorterd")
+    @Column(name = "url_unshorted")
     private String urlUnshorted;
 
     public Url(Long id, String urlUnshorted) {

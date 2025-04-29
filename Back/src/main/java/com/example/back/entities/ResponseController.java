@@ -1,17 +1,17 @@
 package com.example.back.entities;
 
-public class Response {
+public class ResponseController {
     private String mensagem;
     private boolean erro;
     private Object data;
 
-    public Response(String mensagemErro, boolean erro, Object data) {
+    public ResponseController(String mensagemErro, boolean erro, Object data) {
         this.mensagem = mensagemErro;
         this.erro = erro;
         this.data = data;
     }
 
-    public Response() {
+    public ResponseController() {
         this("",false,null);
     }
 
